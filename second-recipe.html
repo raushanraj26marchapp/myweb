@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-2.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Pizza</h2>
+            <p>(Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a dish of Italian origin consisting of a usually round, 
+            flat base of leavened wheat-based dough topped with tomatoes, cheese, 
+            and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.),
+            which is then baked at a high temperature, traditionally in a wood-fired oven. 
+            A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Spread a thin layer of olive oil over the inside of a large bowl. 
+                Place the pizza dough in the bowl and turn it around so that it gets coated with the oil.
+                At this point you can choose how long you want the dough to ferment and rise. 
+                A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. 
+                A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with.
+                Cover the dough with plastic wrap. 
+                For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Preheat the oven at 180 degree Celsius. Now, is the time to make the pizza base when the dough is ready. 
+                Dust the space a little using dry flour and take a large amount of the pizza dough. Using a rolling pin,
+                roll this dough into a nice circular base. (Note: Make sure that the circular base is even at all ends.) 
+                Once you have made the base, use a fork and prick the base with it so that the base doesn't rise and gets baked nicely. 
+                Put it into the preheated oven and bake it 10 minutes. Now, your pizza base is ready.
+            </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Now, wash the capsicum and slice it thinly in a bowl. Then, 
+                peel the onions and cut thin slices of it as well in another bowl. And finally, 
+                cut tomatoes and mushrooms in the same manner. However, make sure that those tomatoes have less juice in them. 
+                Once all the veggies are done, Now, grate the processed and mozzarella cheese in separate bowls.
+                Then, take the fresh pizza base and apply tomato ketchup all over. 
+                Spread half the processed cheese all over the base and evenly put the veggies all across the base. 
+                Once you have put all the veggies, put a thick layer of mozzarella cheese.
+                
+              </p>
+            </div>
+            <!-- end of single instruction -->
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Food Recipes</span> Built by
+        <a href="https://www.johnsmilga.com/">NS Coders</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
